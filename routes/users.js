@@ -4,7 +4,6 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get("/", async function (req, res, _) {
-  console.log("RRLL", req.query);
   const {
     sort_field,
     sort_order_mode,
@@ -13,7 +12,7 @@ router.get("/", async function (req, res, _) {
     page = 1,
     page_size = 1,
   } = req.query;
-  console.log(parseInt(page_size));
+  // console.log(parseInt(page_size));
   const startIndex = (parseInt(page) - 1) * page_size;
   const endIndex = page * page_size;
 
