@@ -3,28 +3,32 @@ const { isAuth } = require("../utils/auth");
 var router = express.Router();
 
 /* GET users listing. */
-router.get("/", async function (req, res, _) {
+router.get("/", async function (req, res) {
+  console.log("$$////");
   const {
-    sort_field,
-    sort_order_mode,
+    sort_field = "firstname",
+    sort_order_mode = "asc",
     filter_field,
     filter_value,
     page = 1,
-    page_size = 1,
+    page_size = 25,
   } = req.query;
-  // console.log(parseInt(page_size));
   const startIndex = (parseInt(page) - 1) * page_size;
   const endIndex = page * page_size;
 
-  const message = await req.context.models.User.find({
-    [filter_field]: [filter_value],
-  })
-    .sort({
-      [sort_field]: [sort_order_mode],
+  try {
+    const message = await req.context.models.User.find({
+      [filter_field]: [filter_value],
     })
-    .limit(parseInt(page_size))
-    .skip(startIndex);
-  res.status(200).json(message);
+      .sort({
+        [sort_field]: [sort_order_mode],
+      })
+      .limit(parseInt(page_size))
+      .skip(startIndex);
+    res.status(200).json(message);
+  } catch (error) {
+    console.error(error);
+  }
 });
 router.get("/:id", async function (req, res, _) {
   const message = await req.context.models.User.find({
