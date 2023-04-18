@@ -1,39 +1,8 @@
 # pmglo
 
-<p><img src="https://raw.githubusercontent.com/PawanKolhe/color-calendar/master/screenshots/logo.png" alt="logo" width="20%" /></p>
 <p>
     <h1>PM Glo</h1>
 </p>
-<p>
-    <a href="https://www.npmjs.com/package/color-calendar">
-        <img src="https://img.shields.io/npm/v/color-calendar?style=flat-square" alt="npm version" />
-    </a>
-    <a href="https://www.npmjs.com/package/color-calendar">
-        <img src="https://img.shields.io/npm/dw/color-calendar?style=flat-square" alt="npm downloads" />
-    </a>
-    <img src="https://img.shields.io/bundlephobia/min/color-calendar?style=flat-square" alt="size" />
-    <a href="https://www.jsdelivr.com/package/npm/color-calendar">
-        <img src="https://data.jsdelivr.com/v1/package/npm/color-calendar/badge" alt="jsdelivr" />
-    </a>
-    <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FPawanKolhe%2Fcolor-calendar" alt="Hits">
-    <img src="https://img.shields.io/npm/l/color-calendar?style=flat-square" alt="license" />
-</p>
-
-[![CircleCI](https://circleci.com/gh/PawanKolhe/color-calendar.svg?style=svg)](https://circleci.com/gh/PawanKolhe/color-calendar)
-
-<p>
-    A customizable events calendar component library. Checkout <a href="https://online-tech-confs.herokuapp.com/">Demo 1</a>, <a href="https://v84yk.csb.app/">Demo 2</a> and <a href="https://codesandbox.io/s/color-calendar-bnwdu">Demo 3.</a>
-</p>
-
-<!-- # Color Calendar
-![npm](https://img.shields.io/npm/v/color-calendar?style=flat-square)
-![npm](https://img.shields.io/npm/dw/color-calendar?style=flat-square)
-![npm bundle size](https://img.shields.io/bundlephobia/min/color-calendar?style=flat-square)
-[![](https://data.jsdelivr.com/v1/package/npm/color-calendar/badge)](https://www.jsdelivr.com/package/npm/color-calendar)
-![HitCount](http://hits.dwyl.com/PawanKolhe/color-calendar.svg)
-![NPM](https://img.shields.io/npm/l/color-calendar?style=flat-square) -->
-
-![Color Calendar](https://raw.githubusercontent.com/PawanKolhe/color-calendar/master/screenshots/poster_calendar.png)
 
 - [Features](#features)
 - [Getting Started](#getting-started)
