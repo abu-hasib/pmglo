@@ -6,8 +6,8 @@
 
 PM Glo is a RESTful JSON HTTP API gateway that allows programmatic CRUD operations on user records. Some other features:
 
-[1] All requests is authenticated using HTTP Basic Authentication i.e. RFC2617
-[2] Its API gateway is available on a publicly accessible server.
+- All requests is authenticated using HTTP Basic Authentication i.e. RFC2617
+- Its API gateway is available on a publicly accessible server.
 
 
 ## Getting Started
