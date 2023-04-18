@@ -1,12 +1,14 @@
-# Mini Phones Mart
+# PM Glo
 
-[![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
 [![npm version](https://badge.fury.io/js/mongodb.svg)](https://badge.fury.io/js/mongodb)
 [![npm version](https://badge.fury.io/js/mongoose.svg)](https://badge.fury.io/js/mongoose)
 [![npm version](https://badge.fury.io/js/node.svg)](https://badge.fury.io/js/node)
-[![npm version](https://badge.fury.io/js/webpack.svg)](https://badge.fury.io/js/webpack)
 
-Mini Phones Mart is an app that uses MongoDB as database, Node as both an API and Web Server and React as the front end.
+PM Glo is a RESTful JSON HTTP API gateway that allows programmatic CRUD operations on user records. Some other features:
+
+[1] All requests is authenticated using HTTP Basic Authentication i.e. RFC2617
+[2] Its API gateway is available on a publicly accessible server.
+
 
 ## Getting Started
 
@@ -21,7 +23,7 @@ The app uses [Node][1] and also [MongoDB](https://docs.mongodb.com/manual/admini
 - Clone the repo
 
   ```
-  git clone https://github.com/abu-hasib/miniphonesmart.git
+  git clone https://github.com/abu-hasib/pmglo.git
   ```
 
 - Install dependences
@@ -43,14 +45,10 @@ The app uses [Node][1] and also [MongoDB](https://docs.mongodb.com/manual/admini
 - [Node][1] - Web and API server
 - [MongoDB][2] - Database
 - [Mongoose][3] - mongodb object modeling package
-- [React][4] - A JS library for building UI
-- [Webpack][5] - bundler
 
 [1]: https://nodejs.org/en/
 [2]: https://www.mongodb.com/
 [3]: https://mongoosejs.com/
-[4]: https://reactjs.org/
-[5]: https://webpack.js.org/
 
 ## Contributing
 
